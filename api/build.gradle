@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+}
+
+ext {
+    springBootVersion = '4.0.9'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation platform("org.springframework.boot:spring-boot-dependencies:${springBootVersion}")
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
