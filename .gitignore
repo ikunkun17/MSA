@@ -35,3 +35,7 @@ out/
 
 ### VS Code ###
 .vscode/
+nohup.out
+build/
+.gradle/
+*.jar
