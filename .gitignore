@@ -39,3 +39,4 @@ nohup.out
 build/
 .gradle/
 *.jar
+.idea/
